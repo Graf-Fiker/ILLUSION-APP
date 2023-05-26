@@ -1,0 +1,102 @@
+img {
+  border-radius: 5px;
+}
+
+.card-header:first-child {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*width: 72vw;*/
+  /*height: 36vh;*/
+  box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126), 0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224), 0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /*transition: 0.5s ease;*/
+}
+
+.far.fa-star {
+}
+
+.swipe-up-reload {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  z-index: 9999;
+}
+
+#swipe-down-reload {
+  position: fixed;
+  top: -50px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  z-index: 9999;
+  transition: top 0.3s ease-in-out;
+}
+
+#swipe-down-reload.active {
+  top: 0;
+}
+
+.swipe-down-reload-message {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#pull-down-refresh {
+  position: fixed;
+  top: -50px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  z-index: 9999;
+  transition: top 0.3s ease-in-out;
+}
+
+#pull-down-refresh.active {
+  top: 0;
+}
+
+.pull-down-refresh-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.pull-down-refresh-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: 1400px) {
+  #page1 {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #page2 {
+    display: block;
+    width: 600px;
+    margin-left: 630px;
+  }
+}
+
