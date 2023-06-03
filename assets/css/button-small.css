@@ -1,0 +1,16 @@
+button:active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+#page1 {
+  height: 90%;
+}
+
+@media (min-width: 300px) {
+  .dropdown {
+    right: 0;
+    position: absolute;
+  }
+}
+
