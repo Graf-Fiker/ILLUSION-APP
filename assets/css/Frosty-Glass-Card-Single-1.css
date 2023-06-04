@@ -10,7 +10,8 @@
   #page2 {
     display: block;
     width: 600px;
-    margin-left: 620px;
+    left: 0;
+    margin-left: 649px;
     overflow-y: scroll;
   }
 }
